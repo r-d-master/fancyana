@@ -1,0 +1,41 @@
+#home-banners.carousel .item {
+  /*height: 500px;*/
+}
+#home-banners.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+}
+
+.carousel-adjacent-options-table
+{
+	width:311px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.carousel-adjacent-options-table-wrapper
+{
+	vertical-align: middle;
+}
+
+.bodyRedLink a {
+	color:#E40600;
+}
+
+.bodyRedLink a:hover {
+	color:#c9302c;
+}
+
+.bodyRedText {
+	color:#c9302c;
+}
+
+.bannerImage {
+	width: 100%;
+}
+
+.lightGreyBg {
+	background-color:#f9f9f9;	
+}

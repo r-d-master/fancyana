@@ -1,0 +1,352 @@
+div.order-nav-parent {
+    position: relative;
+    width: 100%;
+    border-top: 2px solid #c9302c;
+    background: #ffffff;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    div#order-nav {
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        border-top: 2px solid #c9302c;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #F8ECE0;
+        text-align: center;
+        z-index: 5000;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div#order-nav {
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        border-top: 2px solid #c9302c;
+        padding-top: 5px;
+        padding-bottom: 45px;
+        background: #ffffff;
+        text-align: center;
+        z-index: 5000;
+    }
+}
+
+.makeInvisible {
+    visibility: hidden;
+}
+
+.imageFigureHolder {
+    display: inline-flex;
+    margin: 5px;
+    max-width: 140px;
+}
+
+.activePickedAddress {
+    border: 3px solid #D1393A;
+}
+
+.activePickupAddress {
+    border: 3px solid #D1393A;
+}
+
+.activeDeliveryAddress {
+    border: 3px solid #D1393A;
+}
+
+.addressPanelBody {
+    padding: 5px !important;
+}
+
+.tabContentImgBig  {
+    display: block;
+    margin: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 150px;
+    border:2px solid #ddd;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+}
+
+.tabContentImgBig:hover {
+    border: 2px solid #D1393A;
+    box-shadow: 0px 0px 10px 1px #AAAAAA;
+}
+
+.tabContentImgBigActive {
+    border: 2px solid #D1393A;
+}
+
+.tabContentImg  {
+    display: block;
+    margin: auto;
+    width: 140px;
+    height: 160px;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+}
+
+.tabContentImg:hover {
+    border: 2px solid #D1393A;
+    box-shadow: 0px 0px 10px 1px #AAAAAA;
+}
+
+.tabContentImgActive {
+    border: 2px solid #D1393A;
+}
+
+.orderDetailsTable .tdLabel {
+  text-align: right;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.orderDetailsTable .tdVal {
+  text-align: left;
+}
+
+.frontTableContentImg  {
+    display: inline-block;
+    margin: auto;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    -moz-transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+}
+
+.frontTableContentImg:hover {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 0 10px #000;
+}
+
+.orderDesignImage {
+    height: 90px;
+    width: 90px;    
+}
+
+.orderDesignCell {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    border-bottom: 1px dashed #c1c1c1;
+    overflow: auto;
+    padding: 10px 0 10px 0;    
+}
+
+.orderDesignColumn {
+    border-right: 1px dashed #D5D5D5;    
+}
+
+.orderDetailsTable > tbody > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-bottom: 1px dashed #ddd;
+    border-top: 0px;
+}
+
+.orderDetailsTable {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.orderPriceCell {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    overflow: auto;
+    padding: 10px 20px 10px 20px;    
+}
+
+.orderPriceSubTotalCell {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    line-height: 25px;
+    height: auto;
+    overflow: auto;
+    padding: 10px 20px 10px 20px;    
+    border-top: 1px dashed #ddd;
+}
+
+.orderPriceTotalCell {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    line-height: 30px;
+    height: auto;
+    overflow: auto;
+    padding: 10px 20px 10px 20px;    
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.orderPriceTitle {
+    display: inline-block;
+    float: left;
+}
+
+.orderPriceVal {
+    display: inline-block;
+    float: right;
+}
+
+.tabHorizontalTitleBig  {
+    display: block;
+    margin: auto;
+    height: 60px;
+    width: 100%;
+    font-size: 1.1em;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+}
+
+.tabHorizontalTitleBig:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+.tabInnerButtonBig  {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    width: 80%;
+    font-size: 1.1em;
+    white-space: normal;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+}
+
+.tabInnerButtonBig:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+.tabHorizontalTitle  {
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 200px;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+}
+
+.tabHorizontalTitle:hover {
+    height: 75px;
+    width: 205px;
+    box-shadow: 0 0 10px #000;
+}
+
+.tabHorizontalTitleActive {
+    border: 2px solid #D1393A;
+}
+
+.backtable-centered td, th {
+    text-align: center;
+}
+
+.hideRadioCircle {
+    position: absolute;
+    left:-5000px;
+}
+
+.upperLabel {
+    display: inline-block;
+    max-width: 200px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333333;
+}
+
+/* Set the size and font of the tab widget */
+.tabGroup {
+    /*font: 10pt arial, verdana;*/
+    /*width: 960px;*/
+}
+ 
+/* Configure the radio buttons to hide off screen */
+.tabGroup > input[type="radio"] {
+    position: absolute;
+    left:-5000px;
+}
+ 
+/* Configure maximum width of tabs and align to top */
+.tabGroup > div.tablabels {
+    display: inline-block;
+    vertical-align: top;
+    width:160px;
+}
+ 
+/* Configure labels to look like tabs */
+.tabGroup > div.tablabels > label {
+    /* inline-block such that the label can be given dimensions */
+    display: inline-block;
+    width:100%;
+     
+    /* A nice curved border around the tab */
+    border: 1px solid #1f1f1f;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px ;
+    -webkit-border-radius: 5px 0 0 5px ;
+ 
+    /* Padding around tab text */
+    padding: 25px 25px;
+ 
+    /* Set the background color to default gray (non-selected tab) */
+    background-color:white;
+    color:#d43f3a;
+     
+}
+
+/* Checked tabs must be white with the bottom border removed */
+.tabGroup > input#rad1:checked ~ div.tablabels > label[for="rad1"],
+.tabGroup > input#rad2:checked ~ div.tablabels > label[for="rad2"],
+.tabGroup > input#rad3:checked ~ div.tablabels > label[for="rad3"] {
+    background-color:#d43f3a;
+    color: white;
+    font-weight: bold;
+    position:relative;
+}
+ 
+.tabGroup > div.tabcontent {
+    display: inline-block;
+    min-height: 400px !important;
+}
+ 
+/* The tab content must fill the widgets size and have a nice border */
+.tabGroup > div.tabcontent > div {
+    width:960px;
+    display: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 10px;
+    height: 100%;
+    overflow-x: auto;
+     
+    border-radius: 0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    -webkit-border-radius: 0 5px 5px 5px;
+}
+ 
+/* This matchs tabs displaying to thier associated radio inputs */
+.tabGroup > .tab1:checked ~ div.tabcontent > .tab1,
+.tabGroup > .tab2:checked ~ div.tabcontent > .tab2,
+.tabGroup > .tab3:checked ~ div.tabcontent > .tab3,
+.tabGroup > .tab4:checked ~ div.tabcontent > .tab4,
+.tabGroup > .tab5:checked ~ div.tabcontent > .tab5 {
+    display: inline-block;
+}

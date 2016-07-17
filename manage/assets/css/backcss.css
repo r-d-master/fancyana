@@ -1,0 +1,78 @@
+.backtableimg  {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: auto;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.backtableimg:hover {
+    height: 200px;
+    width: auto;
+    box-shadow: 0 0 20px #000;
+}
+
+.backinputimg  {
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+    width: auto;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.backinputimg:hover {
+    height: 200px;
+    width: auto;
+    box-shadow: 0 0 20px #000;
+}
+
+.backtable-centered td, th {
+    text-align: center;
+}
+
+.hide-group {
+    display: none !important;
+}
+
+.downloadlistblock {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.downloadlistblock .btn {
+    min-width: 300px;
+}
+
+/* This is copied from https://github.com/blueimp/jQuery-File-Upload/blob/master/css/jquery.fileupload.css */
+ .fileinput-button {
+    position: relative;
+    overflow: hidden;
+}
+/*Also*/
+ .fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter:'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.filterBlock {
+    text-align: center;
+    display: block;
+}
+
+.filterBlock button {
+    display: inline-block;
+    text-align: center !important;
+    min-width: 140px;
+    margin-bottom: 10px;
+}

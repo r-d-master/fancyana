@@ -1,0 +1,28 @@
+input[type=radio].redradiocheckbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].redradiocheckbox + label.redradiochecklabel {
+							padding-left:40px;
+							height:30px; 
+							display:inline-block;
+							line-height:30px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=radio].redradiocheckbox:checked + label.redradiochecklabel {
+							background-position: 0 -30px;
+						}
+						label.redradiochecklabel {
+				background-image:url(../img/redradiocheck.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}

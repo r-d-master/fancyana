@@ -1,0 +1,41 @@
+.footerSocialLinks {
+	display:inline-block;
+	vertical-align: text-top;
+}
+
+.footerSocialLinks ul {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.footerSocialLinks ul li {
+	/*float: left;*/
+	display: inline;
+	list-style-type: none;
+	padding: 0 20px 0 0
+}
+.footerSocialLinks ul li a {
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	color: #FFF;
+}
+
+.footerSocialLinks ul li a:hover {
+	color: #e3c60a
+}
+
+.footerphone {
+	font-size: 2.5em;
+}
+
+a:link.footerurl, a:visited.footerurl, a:hover.footerurl {
+	color: #FFF !important;
+	text-decoration: none;
+}
+
+a:hover.footerurl {
+	color: #e3c60a !important;
+	text-decoration: none;
+}

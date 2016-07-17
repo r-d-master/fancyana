@@ -1,0 +1,133 @@
+.myOrdersTitle {
+    float: left;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px 0 0 0;
+    color: #FFFFFF;
+}
+
+.myOrdersButton {
+    float: right;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 4px 0 0 0;
+    color: #cb5a5e;
+}
+
+.myOrdersReturnButton {
+    float: left;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 4px 0 0 0;
+    color: #cb5a5e;
+    border-color: #cb5a5e;
+    background-color: #ffffff;
+}
+
+.myOrdersContent {
+    display: block;
+}
+
+.myOrdersContentTable {
+    display: inline-table;
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.myOrdersContentTable2 {
+    display: inline-table;
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.myOrdersContentFooter {
+    clear: both;
+    display: block;
+    margin: auto;
+}
+
+.myOrdersContentTable table, .myOrdersContentTable2 table {
+    text-align: left;
+}
+
+.myOrdersContentImg  {
+    display: inline-flex;
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    height: 135px;
+    width: 102px;
+    border:2px solid #ddd;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+}
+
+.myOrdersContentTitle {
+    font-size: 1.6rem;
+    color: #cb5a5e;    
+}
+
+.myOrdersContentData {
+    font-size: 1.4rem;
+    color: #888888 !important;
+}
+
+.myOrdersContentSpecialData {
+    font-size: 1.8rem;
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.discountFromTotal {
+    color:#449d44;
+    font-size: 1.4rem
+}
+
+.myOrdersClear {
+    clear: both;
+}
+
+.myOrdersContentImg:hover {
+    border: 2px solid #D1393A;
+    box-shadow: 0px 0px 10px 1px #AAAAAA;
+}
+
+.adaptiveShow {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .adaptiveTitle {
+        display: none;
+    }
+
+    .myOrdersTitle {
+        float: left;
+        display: inline-block;
+        font-family: monospace;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px 0 0 0;
+        color: #FFFFFF;
+    }
+
+    .myOrdersContentTable2 {
+        display: none;
+    }
+
+    .adaptiveShow {
+        display: table-row;
+    }
+}

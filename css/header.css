@@ -1,0 +1,92 @@
+.headLogo {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.headerMainButton {
+	width: 140px;
+	height: 30px;
+	line-height: 15px !important;
+	margin-right: 15px !important;
+	font-size: 1.3rem;
+}
+
+.headerMainButtonSignedIn {
+	margin-top: 15px !important;
+}
+
+.headerMainButtonDropGroup {
+	margin-right: 15px !important;	
+}
+
+#header-signout-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ 
+.headerHeightControl {
+	height: 70px !important;
+	line-height: 70px !important;
+}
+
+.headerTicker {
+	height:30px;
+	padding: 5px;
+	background-color: #dff0d8;
+	border-width: 1px;
+	border-color: #d6e9c6;
+	color: #3c763d;
+	text-align: center;
+}
+
+.boldFont {
+	font-weight: bold;
+}
+
+@media all and (max-width: 767px) {
+	.navbarMenuCollapsedItem {
+		display: block;
+		background: #d9534f;
+	}
+	.navbarMenuCollapsedItem:hover {
+		background: #c9302c;
+	}
+	.navbarMenuCollapsedItem > a {
+		color: #fff !important;
+	}
+	.navbarMenuUnCollapsedItem {
+		display: none !important;
+	}
+	.headerLinksContainer {
+		margin-top: 60px;
+		border: 2px solid #e7e7e7 !important;
+		background: #fff;
+		text-align: center;
+	}
+	.headerLinksContainer > ul > li {
+		font-size: 2rem;
+	} 
+}
+
+@media all and (min-width: 768px) {
+	.navbarMenuCollapsedItem {
+		display: none !important;
+	}
+	.navbarMenuUnCollapsedItem {
+		display: block;
+	}
+	.headerLinksContainer > ul > li {
+		font-size: 1.0rem;
+	} 
+	.navbarMenuItem {
+		line-height: 50px !important;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.headerLinksContainer > ul > li {
+		font-size: 1.4rem;
+	} 
+}
